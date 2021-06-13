@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84C421E5205F699000E3EA44 /* Bundle+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C421E4205F698F00E3EA44 /* Bundle+Extenstions.swift */; };
+		84C421E7205F9CE900E3EA44 /* UIBarButtonItem_Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C421E6205F9CE900E3EA44 /* UIBarButtonItem_Extenstions.swift */; };
+		84C421F9205FB3AE00E3EA44 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C421F8205FB3AE00E3EA44 /* UIColor+Category.m */; };
 		966F24E7205CD0080047EC4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F24E6205CD0080047EC4D /* AppDelegate.swift */; };
 		966F24E9205CD0080047EC4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F24E8205CD0080047EC4D /* ViewController.swift */; };
-		966F24EC205CD0080047EC4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966F24EA205CD0080047EC4D /* Main.storyboard */; };
 		966F24EE205CD0080047EC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966F24ED205CD0080047EC4D /* Assets.xcassets */; };
 		966F24F9205CD5270047EC4D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966F24F8205CD5270047EC4D /* Launch Screen.storyboard */; };
 		966F2509205CDCE00047EC4D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F2508205CDCE00047EC4D /* BaseViewController.swift */; };
@@ -22,10 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84C421E4205F698F00E3EA44 /* Bundle+Extenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extenstions.swift"; sourceTree = "<group>"; };
+		84C421E6205F9CE900E3EA44 /* UIBarButtonItem_Extenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem_Extenstions.swift; sourceTree = "<group>"; };
+		84C421F7205FB3AE00E3EA44 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		84C421F8205FB3AE00E3EA44 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		84C421FA205FB7AE00E3EA44 /* Bridage_OC4Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridage_OC4Swift.h; sourceTree = "<group>"; };
+		84C421FB205FB88F00E3EA44 /* Toos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toos.h; sourceTree = "<group>"; };
 		966F24E3205CD0080047EC4D /* 微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		966F24E6205CD0080047EC4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		966F24E8205CD0080047EC4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		966F24EB205CD0080047EC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		966F24ED205CD0080047EC4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		966F24F2205CD0080047EC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		966F24F8205CD5270047EC4D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -49,9 +56,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84C421E8205FAA9D00E3EA44 /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+				84C421F7205FB3AE00E3EA44 /* UIColor+Category.h */,
+				84C421F8205FB3AE00E3EA44 /* UIColor+Category.m */,
+				84C421FB205FB88F00E3EA44 /* Toos.h */,
+			);
+			path = Addition;
+			sourceTree = "<group>";
+		};
 		960ECCFD205CE1CD002FA27A /* Extenstion */ = {
 			isa = PBXGroup;
 			children = (
+				84C421E4205F698F00E3EA44 /* Bundle+Extenstions.swift */,
+				84C421E6205F9CE900E3EA44 /* UIBarButtonItem_Extenstions.swift */,
 			);
 			path = Extenstion;
 			sourceTree = "<group>";
@@ -77,8 +96,8 @@
 			children = (
 				966F24FC205CDC470047EC4D /* Classes */,
 				966F24E6205CD0080047EC4D /* AppDelegate.swift */,
+				84C421FA205FB7AE00E3EA44 /* Bridage_OC4Swift.h */,
 				966F24E8205CD0080047EC4D /* ViewController.swift */,
-				966F24EA205CD0080047EC4D /* Main.storyboard */,
 				966F24F8205CD5270047EC4D /* Launch Screen.storyboard */,
 				966F24ED205CD0080047EC4D /* Assets.xcassets */,
 				966F24F2205CD0080047EC4D /* Info.plist */,
@@ -108,6 +127,7 @@
 		966F24FE205CDC470047EC4D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				84C421E8205FAA9D00E3EA44 /* Addition */,
 				960ECCFD205CE1CD002FA27A /* Extenstion */,
 			);
 			path = Tools;
@@ -221,6 +241,7 @@
 				TargetAttributes = {
 					966F24E2205CD0080047EC4D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -250,7 +271,6 @@
 			files = (
 				966F24F9205CD5270047EC4D /* Launch Screen.storyboard in Resources */,
 				966F24EE205CD0080047EC4D /* Assets.xcassets in Resources */,
-				966F24EC205CD0080047EC4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,11 +282,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				966F250B205CDD1C0047EC4D /* BaseNavigationController.swift in Sources */,
+				84C421F9205FB3AE00E3EA44 /* UIColor+Category.m in Sources */,
 				966F24E9205CD0080047EC4D /* ViewController.swift in Sources */,
 				966F2513205CDE4B0047EC4D /* MessageViewController.swift in Sources */,
 				966F2511205CDE350047EC4D /* DiscoverViewController.swift in Sources */,
 				966F24E7205CD0080047EC4D /* AppDelegate.swift in Sources */,
+				84C421E7205F9CE900E3EA44 /* UIBarButtonItem_Extenstions.swift in Sources */,
 				966F2509205CDCE00047EC4D /* BaseViewController.swift in Sources */,
+				84C421E5205F699000E3EA44 /* Bundle+Extenstions.swift in Sources */,
 				966F2515205CDE610047EC4D /* ProfileViewController.swift in Sources */,
 				966F250D205CDD750047EC4D /* MainViewController.swift in Sources */,
 				966F250F205CDE0B0047EC4D /* HomeViewController.swift in Sources */,
@@ -274,17 +297,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		966F24EA205CD0080047EC4D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				966F24EB205CD0080047EC4D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		966F24F3205CD0080047EC4D /* Debug */ = {
@@ -341,6 +353,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -390,6 +403,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -398,13 +412,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "微博/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xm.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/Bridage_OC4Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -413,13 +430,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "微博/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "xm.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)/Bridage_OC4Swift.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

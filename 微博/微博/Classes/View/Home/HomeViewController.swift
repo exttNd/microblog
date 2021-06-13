@@ -10,4 +10,20 @@ import UIKit
 
 class HomeViewController: BaseViewController {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.view.backgroundColor=UIColor.red         
+        
+    }
+    
+    
+    override func initView() {
+        super.initView()
+        
+         navItem.leftBarButtonItem=UIBarButtonItem.init(title: "好友", target: nil, action:nil)
+    }
+    
 }
+
+ 
